@@ -1,12 +1,15 @@
 import React from "react";
 import Layout from "../components/Layout";
+import HeaderTags from "../components/HeaderTags";
 
 const Index = () => (
   <Layout>
+    <HeaderTags title="Home Page - My Website" description="This is the site description and if you are seeing this, this is from the server." featuredImg="https://loremflickr.com/600/400/business?lock=1" />
     <div className="container">
       <h2>Welcome to Homepage</h2>
       <img
-        src="https://media.giphy.com/media/lrsAwbDQbEcB2hfdWS/giphy.gif"
+        // src="https://media.giphy.com/media/lrsAwbDQbEcB2hfdWS/giphy.gif"
+        src="https://loremflickr.com/600/400/business?lock=1"
         alt="welcome"
         className="img"
       />
