@@ -21,7 +21,7 @@ const HeaderTags = ({ title, description, featuredImg }) => {
       {/* <!-- Open Graph data --> */}
       <meta property="og:title" content={title} />
       <meta property="og:type" content="article" />
-      <meta property="og:url" content="http://www.example.com/" />
+      {/* <meta property="og:url" content="http://www.example.com/" /> */}
       <meta
         property="og:image"
         content={featuredImg || "http://loremflickr.com/400/400/book"}
